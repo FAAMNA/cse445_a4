@@ -3,13 +3,14 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://venus.sod.asu.edu/WSRepository/xml https://mesh-ux.github.io/cse445-a4/Hotels.xsd">
 
+  <!-- Hotel 1 -->
   <Hotel Rating="4.5">
-    <Name>Westin Tempe</Name>
-    <Phone>4809688885</Phone>
-    <Phone>8009378461</Phone>
+    <Name>Sunrise Inn</Name>
+    <Phone>4801234567</Phone>
+    <Phone>8001112222</Phone>
     <Address>
-      <Number>11</Number>
-      <Street>E 7th St</Street>
+      <Number>101</Number>
+      <Street>N Scottsdale Rd</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
@@ -17,26 +18,28 @@
     </Address>
   </Hotel>
 
+  <!-- Hotel 2 -->
   <Hotel Rating="4.1">
-    <Name>Hyatt Place Tempe/Phoenix Airport</Name>
-    <Phone>4808049544</Phone>
-    <Phone>8884928847</Phone>
+    <Name>Skyline Suites</Name>
+    <Phone>4803338888</Phone>
+    <Phone>8889990000</Phone>
     <Address>
-      <Number>1413</Number>
-      <Street>W Rio Salado Pkwy</Street>
+      <Number>321</Number>
+      <Street>W Broadway Rd</Street>
       <City>Tempe</City>
       <State>AZ</State>
-      <Zip>85281</Zip>
+      <Zip>85282</Zip>
       <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
+  <!-- Hotel 3 -->
   <Hotel>
-    <Name>Graduate Tempe</Name>
-    <Phone>4809679431</Phone>
+    <Name>Hotel Element</Name>
+    <Phone>6024447777</Phone>
     <Address>
-      <Number>225</Number>
-      <Street>E Apache Blvd</Street>
+      <Number>99</Number>
+      <Street>E Lemon St</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
@@ -44,13 +47,14 @@
     </Address>
   </Hotel>
 
+  <!-- Hotel 4 -->
   <Hotel Rating="4.3">
-    <Name>Tempe Mission Palms</Name>
-    <Phone>4808941400</Phone>
-    <Phone>8005478705</Phone>
+    <Name>Oasis Hotel</Name>
+    <Phone>4807890000</Phone>
+    <Phone>8002223333</Phone>
     <Address>
-      <Number>60</Number>
-      <Street>E 5th St</Street>
+      <Number>404</Number>
+      <Street>S Mill Ave</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
@@ -58,38 +62,41 @@
     </Address>
   </Hotel>
 
+  <!-- Hotel 5 -->
   <Hotel Rating="4.0">
-    <Name>Aloft Tempe</Name>
-    <Phone>4806213300</Phone>
+    <Name>Comfort Stay</Name>
+    <Phone>4805671234</Phone>
     <Address>
-      <Number>951</Number>
-      <Street>E Playa Del Norte Dr</Street>
+      <Number>707</Number>
+      <Street>E University Dr</Street>
       <City>Tempe</City>
       <State>AZ</State>
-      <Zip>85281</Zip>
+      <Zip>85282</Zip>
       <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
+  <!-- Hotel 6 -->
   <Hotel>
-    <Name>Courtyard by Marriott Tempe Downtown</Name>
-    <Phone>4809662800</Phone>
+    <Name>Metro Inn</Name>
+    <Phone>4809998888</Phone>
     <Address>
       <Number>601</Number>
-      <Street>S Ash Ave</Street>
+      <Street>W Southern Ave</Street>
       <City>Tempe</City>
       <State>AZ</State>
-      <Zip>85281</Zip>
+      <Zip>85282</Zip>
       <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
+  <!-- Hotel 7 -->
   <Hotel Rating="4.2">
-    <Name>Hilton Garden Inn Phoenix-Tempe ASU Area</Name>
-    <Phone>4809682424</Phone>
+    <Name>Riverwalk Hotel</Name>
+    <Phone>6022221111</Phone>
     <Address>
-      <Number>2102</Number>
-      <Street>E Rio Salado Pkwy</Street>
+      <Number>2100</Number>
+      <Street>E Curry Rd</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
@@ -97,42 +104,45 @@
     </Address>
   </Hotel>
 
+  <!-- Hotel 8 -->
   <Hotel Rating="4.4">
-    <Name>AC Hotel Phoenix Tempe/Downtown</Name>
-    <Phone>4806426140</Phone>
-    <Phone>8446310595</Phone>
+    <Name>Urban Vibe</Name>
+    <Phone>4803003000</Phone>
+    <Phone>8447778888</Phone>
     <Address>
       <Number>100</Number>
-      <Street>E Rio Salado Pkwy</Street>
+      <Street>S McClintock Dr</Street>
       <City>Tempe</City>
       <State>AZ</State>
-      <Zip>85281</Zip>
+      <Zip>85282</Zip>
       <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
+  <!-- Hotel 9 -->
   <Hotel>
-    <Name>Moxy Phoenix Tempe/ASU Area</Name>
-    <Phone>4808655700</Phone>
+    <Name>Lakeside Lodge</Name>
+    <Phone>4802123456</Phone>
     <Address>
-      <Number>1333</Number>
-      <Street>S Rural Rd</Street>
+      <Number>1500</Number>
+      <Street>W Baseline Rd</Street>
       <City>Tempe</City>
       <State>AZ</State>
-      <Zip>85281</Zip>
+      <Zip>85283</Zip>
       <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
+  <!-- Hotel 10 -->
   <Hotel Rating="4.3">
-    <Name>Residence Inn Tempe Downtown/University</Name>
-    <Phone>4809672300</Phone>
+    <Name>Studio Inn</Name>
+    <Phone>4803216789</Phone>
     <Address>
-      <Number>510</Number>
-      <Street>S Forest Ave</Street>
+      <Number>500</Number>
+      <Street>E Broadway Rd</Street>
       <City>Tempe</City>
       <State>AZ</State>
-      <Zip>85281</Zip>
+      <Zip>85282</Zip>
       <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
