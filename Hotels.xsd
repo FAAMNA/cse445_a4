@@ -6,14 +6,18 @@
     elementFormDefault="qualified"
     attributeFormDefault="unqualified">
 
+  <!-- Root element definition -->
   <xsd:element name="Hotels" type="HotelsType"/>
 
+  <!-- Complex type for Hotels -->
   <xsd:complexType name="HotelsType">
     <xsd:sequence>
+      <!-- Require at least 10 Hotel entries -->
       <xsd:element name="Hotel" type="HotelType" minOccurs="10" maxOccurs="unbounded"/>
     </xsd:sequence>
   </xsd:complexType>
 
+  <!-- Complex type for each Hotel -->
   <xsd:complexType name="HotelType">
     <xsd:sequence>
       <xsd:element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
@@ -23,6 +27,7 @@
     <xsd:attribute name="Rating" type="xsd:decimal" use="optional"/>
   </xsd:complexType>
 
+  <!-- Complex type for Address -->
   <xsd:complexType name="AddressType">
     <xsd:sequence>
       <xsd:element name="Number" type="xsd:string" minOccurs="1" maxOccurs="1"/>
